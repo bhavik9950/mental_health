@@ -15,7 +15,7 @@ const PostForm = () => {
       postData.append('name', name);
       postData.append('content', content);
 
-      const response = await axios.post('http://localhost/mental_health_backend/post.php', postData, {
+      const response = await axios.post('http://localhost:8080/post.php', postData, {
         headers: {
           'Content-Type': 'application/x-www-form-urlencoded',
         },

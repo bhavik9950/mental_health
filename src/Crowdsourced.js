@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import './health.css';
-import PostForm from './post-form'; 
-import Feed from './Feed'; 
-import Contact from './Contact'; 
+import PostForm from './post-form.js';
+import Feed from './Feed.js';
+import Contact from './Contact.js';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
 // Simple Home Page component

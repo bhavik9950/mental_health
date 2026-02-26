@@ -16,7 +16,7 @@ const Contact = () => {
       formData.append('email', email);
       formData.append('query', query);
      
-      const response = await axios.post('http://localhost/mental_health_backend/contact.php', formData, {
+      const response = await axios.post('http://localhost:8080/contact.php', formData, {
         headers: {
           'Content-Type': 'application/x-www-form-urlencoded',
       },
